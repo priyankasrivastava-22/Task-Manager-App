@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Manager App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h2>Task Manager</h2>
+        <div class="task-summary">
+            <span id="totalTasks">Total: 0</span> |
+            <span id="completedTasks">Completed: 0</span> |
+            <span id="pendingTasks">Pending: 0</span>
+        </div>
+
+        <form id="taskForm" class="task-form">
+            <input type="text" id="title" placeholder="Task Title" required>
+            <input type="text" id="description" placeholder="Task Description" required>
+            <input type="text" id="assignedTo" placeholder="Assigned To (Name)" required>
+            <button type="submit" id="addTaskBtn">Add Task</button>
+            <div id="errorMsg" class="error-message">Please fill all fields.</div>
+        </form>
+
+        <ul id="taskList" class="task-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

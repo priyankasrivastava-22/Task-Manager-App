@@ -1,0 +1,98 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.app-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 10px;  /* Adds equal margin left & right */
+    border: none;
+}
+.task-summary {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.task-form input, #addTaskBtn {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;  /* No left/right margin */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Important to include padding in width */
+}
+
+
+#addTaskBtn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.task-buttons button {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-buttons .btn-status-toggle {
+    background-color: green;
+}
+
+.task-buttons .btn-feedback {
+    background-color: #007bff; /* Bootstrap blue */
+}
+
+.task-buttons .btn-delete {
+    background-color: red;
+}
+
+.feedback-text {
+    margin-top: 10px;
+    font-style: calibri;
+    color: #333;
+}
+
+.error-message {
+    color: red;
+    display: none;
+    margin-top: 10px;
+}
