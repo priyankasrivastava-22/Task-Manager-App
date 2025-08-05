@@ -79,13 +79,18 @@ The server will run at http://localhost:3000.
 
 5. Open the index.html file in your browser (frontend). The frontend will communicate with the backend API.
 
+
+
 ```Author
 Priyanka Srivastava
 GitHub: @priyankasrivastava-22
 
 
+
 ```🔗 Project Link
 https://github.com/priyankasrivastava-22/Task-Manager-App
+
+
 
 ```API Endpoints
 GET /api/tasks - Get all tasks
